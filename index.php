@@ -14,6 +14,11 @@
 			<button id="bonus" class="hidden">Купить бонуску!(-1000кликов)</button>
 			<button  id="openAllUpgrades">Всего апгрейдов!</button>
 			<button id="settings">Настройки</button>
+			<button id="stat">Статистика</button>
+			<div id="allStat" class="hidden">
+				<div id="statClickPerAllTime">Кликов за всё время сделано:0</div>
+			</div>
+			<button id="backStat" class="hidden">Назад</button>
 			<button class="hidden" id="shopClick">Просто клики</button>
 			<button class="hidden" id="backShop">Назад</button>
 			<button class="hidden" id="backSettings">Назад</button>
@@ -32,7 +37,6 @@
 				<input type="submit" id="colorPickerSubmit">
 			</form>
 			<!--Апгрейды кликов-->
-
 			<button class="hidden" id="upgrade1">Купить апгрейд 1lvl(-10 кликов)(+1клик)</button>
 			<button class="hidden" id="upgrade2">Купить апгрейд 2lvl(-20 кликов)(+2клик)</button>
 			<button class="hidden" id="upgrade3">Купить апгрейд 3lvl(-30 кликов)(+3клик)</button>
@@ -44,7 +48,6 @@
 			<button class="hidden" id="upgradePerMinute3">Купить кликов в минуту(+3клик)(-30 кликов)</button>
 			<button class="hidden" id="upgradePerMinute4">Купить кликов в минуту(+4клик)(-40 кликов)</button>
 			<button class="hidden" id="upgradePerMinute5">Купить кликов в минуту(+5клик)(-50 кликов)</button>
-
 		</div>
 		<div id="clicker" class="green">
 			<h1 id="h1">Кликов сделано:0</h1>
